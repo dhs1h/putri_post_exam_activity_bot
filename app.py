@@ -31,6 +31,10 @@ if each_word == "angry":
       feelings_list.append("angry")
       encouragement_list.append("calm down")
       counter += 1
+      if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("cry")
+      counter += 1
       
   if counter == 0:
     
